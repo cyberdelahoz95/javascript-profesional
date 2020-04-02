@@ -1,0 +1,7 @@
+Notes about scope
+
+Scope determines the lifecycle of a variable.
+-Global Scope
+-Function Scope
+-Block Scope
+-Module Scope
