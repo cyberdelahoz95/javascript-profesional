@@ -27,7 +27,7 @@ MediaPlayer.prototype._initPlugins = function () {
         get muted() {
             return this.media.muted;
         },
-        set mute(value) {
+        set muted(value) {
             this.media.muted = value;
         },
     };

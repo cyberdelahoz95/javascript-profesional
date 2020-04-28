@@ -1,0 +1,23 @@
+{
+    "name": "javascript-profesional",
+    "version": "1.0.0",
+    "description": "Notes about scope",
+    "main": "index.js",
+    "scripts": {
+        "start": "live-server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cyberdelahoz95/javascript-profesional.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/cyberdelahoz95/javascript-profesional/issues"
+    },
+    "homepage": "https://github.com/cyberdelahoz95/javascript-profesional#readme",
+    "devDependencies": {
+        "live-server": "^1.2.1"
+    }
+}
