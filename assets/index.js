@@ -4,6 +4,7 @@ import AutoPause from './plugins/AutoPause.js';
 
 const video = document.querySelector('video');
 const button = document.querySelector('button');
+const muteButton = document.querySelector('#muteButton');
 
 const player = new MediaPlayer({
 	el: video,
@@ -13,3 +14,17 @@ const player = new MediaPlayer({
 button.onclick = () => {
 	player.paused() ? player.play() : player.pause();
 };
+
+muteButton.onclick = () => {
+	if (player.media.muted) {
+		player.unmute();
+	} else {
+		player.mute();
+	}
+};
+
+if ('serviceWorker' in navigator) {
+	navigator.serviceWorker.register('/sw.js').catch((err) => {
+		console.log(err.message);
+	});
+}
