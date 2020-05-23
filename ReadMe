@@ -16,3 +16,5 @@ Schedule Tasks. Aquí se agregan a la cola, las tareas programadas para su ejecu
 Task Queue. Aquí se agregan las tares que ya están listas para pasar al stack y ser ejecutadas. El stack debe estar vacío para que esto suceda.
 MicroTask Queue. Aquí se agregan las promesas. Esta Queue es la que tiene mayor prioridad.
 El Event Loop es un loop que está ejecutando todo el tiempo y pasa periódicamente revisando las queues y el stack moviendo tareas entre estas dos estructuras.
+
+how to build a project made in typescript "tsc src/*.ts src/**/*.ts src/**/**/*.ts --outDir lib
